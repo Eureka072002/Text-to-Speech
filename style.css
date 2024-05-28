@@ -21,6 +21,11 @@
     margin-top: -50px;
     margin-bottom: 50px;
     color: whitesmoke;
+    transition: color 0.3s ease-in-out;
+}
+
+.hero h1:hover{
+    color: rgba(255, 235, 18, 0.884);
 }
 
 .hero h1 span {
@@ -68,6 +73,12 @@ button {
     display: flex;
     align-items: center;
     gap: 20px;
+    
+}
+
+button:hover {
+    transition: background 0.3s ease-in-out;
+    background: #a42b4c;
 }
 
 button img {
